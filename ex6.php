@@ -10,12 +10,16 @@
     <?php 
 
     $nombre = 5;
-    $puissance = 3;
+    $puissance = 2;
+    $resultat = 5;
 
-    for ($i = 1; $i < $puissance ; $i++)
+    for ($i = 0; $i < $puissance ; $i++)
     {
-     $nombre = $nombre * $nombre;
+     $resultat = $resultat * $nombre;
     }
+
+    echo $resultat;
+    ?>
 
 </body>
 </html>
